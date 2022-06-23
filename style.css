@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 44% 56%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "article" "logo"
+    "article" "titulo"
+    "article" "botoes";
+}
+
+article{
+    display: flex;
+    grid-area: "article";
+    background-image: url(lohp_1302x955.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.tb{
+    width: 600px;
+    margin-top: 95px;
+}
+
+
+img{
+    width: 60px;
+    grid-area: "logo";
+    margin: 28px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    grid-area: "titulo";
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h1{
+    display: flex;
+    font-size: 4.25rem;
+    font-weight: 800;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 51px;
+    font-size: 35px;
+    margin-right: 75px;
+}
+
+.botao{
+    grid-area: "botoes";
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: 41px;
+    margin-top: 32px;
+}
+
+a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.g{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.a{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.ub{
+    background-color: #00acee;
+    color: white;
+    border-style: none;
+}
+
+.ou{
+    margin-left: 130px;
+    margin-top: 7px;
+}
+
+.rp{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 9px;
+    font-size: 10px;
+    max-width: 285px;
+}
