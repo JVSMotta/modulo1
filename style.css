@@ -21,13 +21,16 @@ article{
     background-image: url(lohp_1302x955.png);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
 .tb{
+    display: flex;
     width: 600px;
-    margin-top: 95px;
+    height: 600px;
+    margin-top: 75px;
+    margin-left: -15px;
 }
 
 
@@ -105,10 +108,75 @@ a{
     margin-top: 7px;
 }
 
+.aviso{
+    display: flex;
+    background-color: none;
+    margin-left: 45px;
+    padding: 0%;
+    font-size: 10px;
+    margin-top: none;
+    align-items: flex-end;
+    word-wrap:normal;
+}
+
 .rp{
     display: flex;
-    margin-left: 45px;
+    flex-direction: row;
     margin-top: 9px;
     font-size: 10px;
-    max-width: 285px;
+}
+
+.aviso2{
+    display: flex;
+    margin-left: 45px;
+    font-size: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.ta{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2px;
+    margin-right: 2px;
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    color: #00acee;
+    font-size: 10px;
+    background-color: none;
+    align-items: flex-end;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+
+h3{
+    margin-top: 21px;
+}
+
+.entrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00acee;
+    text-transform:capitalize;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-top: 21px;
+    margin-right: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 45px;
 }
